@@ -1,4 +1,4 @@
-package com.example.foodgorestaurant;
+package com.example.foodgorestaurant.View;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

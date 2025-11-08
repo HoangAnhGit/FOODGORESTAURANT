@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity"
+    tools:context=".View.RegisterActivity"
     android:background="@drawable/bg_gradient_top_to_bottom">
 
 
@@ -64,39 +64,15 @@
             android:text="@string/information_login"/>
 
         <EditText
-            android:id="@+id/edt_name"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="16dp"
-            android:autofillHints=""
-            android:hint="@string/name"
-            android:background="@drawable/bg_input_login"
-            android:paddingHorizontal="12dp"
-            android:textSize="14sp"
-            android:layout_marginBottom="10dp"
-            android:inputType="textPersonName" />
-
-        <EditText
             android:id="@+id/edt_phone"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginTop="16dp"
             android:layout_marginBottom="10dp"
             android:autofillHints=""
             android:background="@drawable/bg_input_login"
             android:hint="@string/phone"
             android:inputType="phone"
-            android:paddingHorizontal="12dp"
-            android:textSize="14sp" />
-
-        <EditText
-            android:id="@+id/edt_email"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginBottom="10dp"
-            android:autofillHints=""
-            android:background="@drawable/bg_input_login"
-            android:hint="@string/email"
-            android:inputType="textEmailAddress"
             android:paddingHorizontal="12dp"
             android:textSize="14sp" />
 
@@ -121,10 +97,29 @@
             android:background="@drawable/bg_input_login"
             android:paddingHorizontal="12dp"
             android:textSize="14sp"
-            android:layout_marginBottom="32dp"
-            android:inputType="textPassword" />
+            android:layout_marginBottom="10dp" android:inputType="textPassword" />
 
-        <!--error-->
+        <EditText
+            android:id="@+id/edt_restaurant_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:autofillHints=""
+            android:background="@drawable/bg_input_login"
+            android:hint="@string/restaurant_name" android:inputType="textCapWords"
+            android:paddingHorizontal="12dp"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="32dp" android:autofillHints=""
+            android:background="@drawable/bg_input_login"
+            android:hint="@string/address" android:inputType="textPostalAddress"
+            android:paddingHorizontal="12dp"
+            android:textSize="14sp" />
+
         <Button
             android:id="@+id/btn_register"
             android:layout_width="match_parent"
@@ -163,12 +158,10 @@
                 android:textSize="14sp" />
         </LinearLayout>
 
-
     </LinearLayout>
 
     <include
         android:id="@+id/include_loading"
         layout="@layout/layout_loading" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

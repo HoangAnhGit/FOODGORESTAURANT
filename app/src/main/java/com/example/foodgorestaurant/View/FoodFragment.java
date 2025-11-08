@@ -1,4 +1,4 @@
-package com.example.foodgorestaurant;
+package com.example.foodgorestaurant.View;
 
 import android.os.Bundle;
 
