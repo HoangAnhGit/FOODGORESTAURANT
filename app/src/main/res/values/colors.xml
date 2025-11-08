@@ -2,4 +2,22 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#64C9D1</color>
+    <color name="colorPrimaryVariant">#B9E9ED</color>
+    <color name="colorBlackText">#000000</color>
+    <color name="colorWhiteText">#FFFFFF</color>
+    <color name="colorGrayText">#CCCCCC</color>
+    <color name="colorGray">#EFEFEF</color>
+
+    <color name="itemPink">#F8D8E7</color>
+    <color name="itemGreen">#DEF4C3</color>
+    <color name="itemYellow">#FAEB9A</color>
+    <color name="itemRed">#F8D3CD</color>
+    <color name="itemPurpose">#ECDBFD</color>
+    <color name="itemTurquoise">#C2E2DF</color>
+    <color name="itemOrange">#FCE6BD</color>
+
+
+    <color name="green_success">#2ECC71</color>
+    <color name="red_danger">#E74C3C</color>
 </resources>

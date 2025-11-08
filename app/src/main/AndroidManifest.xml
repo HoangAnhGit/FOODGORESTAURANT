@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FOODGORESTAURANT">
         <activity
+            android:name=".DetailFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OderDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
