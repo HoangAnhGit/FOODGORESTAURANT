@@ -96,4 +96,8 @@ public class AuthRepository {
 
         return resultRegister;
     }
+    public void logout(Context context) {
+        TokenManager.getInstance(context).clear();
+    }
+
 }

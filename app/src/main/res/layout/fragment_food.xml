@@ -1,35 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    tools:context=".View.FoodFragment">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""/>
+    android:orientation="vertical">
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayoutOrders"
+        android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        app:tabIndicatorColor="@color/colorPrimary"
-        app:tabIndicatorHeight="3dp"
-        app:tabSelectedTextColor="@color/colorPrimary"
-        app:tabTextColor="#999999"
         app:tabMode="fixed"
-        app:tabGravity="fill" />
+        app:tabGravity="fill"/>
 
-    <!-- ViewPager2 chứa nội dung 2 tab -->
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPagerOrders"
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:overScrollMode="never" />
+        android:layout_weight="1"/>
 
 </LinearLayout>
