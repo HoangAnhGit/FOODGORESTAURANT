@@ -7,4 +7,9 @@
     <item
         android:id="@+id/food"
         android:title="Food"/>
+
+    <item
+        android:id="@+id/add_food"
+        android:title="Thêm Món"
+        android:icon="@android:drawable/ic_menu_add"/>
 </menu>
